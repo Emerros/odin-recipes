@@ -1,0 +1,159 @@
+
+
+/*  */
+html {
+    display: flex; 
+    justify-content: center; 
+    box-sizing: border-box; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    background-color:rgb(200,200,200);}
+body {
+    max-width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    background-color:rgb(200, 200, 200);}
+
+a {
+    text-decoration:none; 
+    color: inherit;}
+
+/*  */
+header {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    justify-content: center;}
+
+h2 {
+    text-align: center;
+}
+#info-img {
+    max-width: 80%; 
+    max-height: 50vh;
+    margin: 50px 0 0 0; 
+    padding: 0 0 0 0; 
+    border: solid 2px; 
+    border-radius: 1.5rem;
+    border-color: rgba(42,42,42,1); 
+    box-shadow: 0px 0px 5px 5px rgba(42,42,42,.7)}
+
+nav {display: flex; 
+    position: fixed; 
+    justify-content: space-between; 
+    z-index: 1; 
+    top:0; 
+    left: 0;
+    width: 100%; 
+    height: 40px; 
+    margin: 0;
+    padding: 0;
+    background-color:rgba(210, 160, 79, 1);}
+
+#headTitle {
+    display: flex; 
+    align-items: center;
+    height: 100%; 
+    margin: 0; 
+    padding: 0;}
+
+#headTitle h1 {
+    display: flex; 
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0 10px 0 10px;
+    background-color:rgba(42,42,42,1);color:rgba(210, 160, 79, 1);}
+
+nav ul {
+    display: flex; 
+    align-items: center; 
+    height: 100% ;
+    margin: 0; 
+    padding: 0 0px 0 10px; 
+    font-size: 1.2rem;
+    background-color:transparent;}
+
+nav ul li {
+    display: flex;  
+    align-items: center; 
+    height: 100%; 
+    padding: 0 .7rem 0 .7rem;
+    list-style-type: none; color: rgba(42,42,42,1)}
+
+nav ul li:hover {
+    background-color:rgba(42,42,42,1); 
+    color: rgba(210, 160, 79, 1);}
+    
+/*  */
+
+main {
+    display: flex; 
+    flex-direction: column;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    border-radius: 2px;
+    border-color: rgba(42,42,42,1);}
+
+#recipe-name {
+    text-align: center; 
+    margin: 15px 0 0 0; 
+    padding: 0;}
+
+#info-container {
+    display: flex; 
+    justify-content: center;
+    width: 100%; 
+    margin: 30px 0 0 0; 
+    padding: 0; 
+    border-top: 3px;}
+
+#ingredients {
+    width: 43%; 
+    margin: 0px 10px 20px 10px; 
+    padding: 3px 3px 3px 0px; 
+    background-color: rgba(210,160,79,1); 
+    color: rgba(42,42,42,1);
+    border: solid 2px; 
+    border-radius: .5rem; 
+    box-shadow: 0px 0px 5px 5px rgba(42,42,42,.7);
+    border-color: rgba(42,42,42,1);}
+
+#ingredients h3 {
+    margin: 0px 0 0 10px; 
+    padding: 0; 
+    color: rgba(42,42,42,1);}
+
+#instructions {
+    width: 43%; 
+    margin: 0px 10px 20px 10px; 
+    padding: 3px 3px 3px 0px; 
+    background-color: rgba(210,160,79,1); 
+    color: rgba(42,42,42,1); 
+    border: solid 2px; 
+    border-radius: .5rem; 
+    border-color: rgba(42,42,42,1); 
+    box-shadow: 0px 0px 5px 5px rgba(42,42,42,.7);}
+
+#instructions h3 {
+    margin: 0 0 0 10px; 
+    padding: 0; 
+    color: rgba(42,42,42,1)}
+
+/*  */
+
+@media (max-width: 600px) {
+    body {min-width: 430px}
+    nav {min-width: 430px}
+    #info-container {flex-direction: column;}
+    #ingredients {width: 95%;}
+    #instructions {width: 95%}
+}
+/*  */
+
+/*  */
